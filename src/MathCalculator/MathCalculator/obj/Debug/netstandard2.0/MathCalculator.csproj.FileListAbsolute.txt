@@ -1,0 +1,9 @@
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\bin\Debug\netstandard2.0\MathCalculator.deps.json
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\bin\Debug\netstandard2.0\MathCalculator.dll
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\bin\Debug\netstandard2.0\MathCalculator.pdb
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\obj\Debug\netstandard2.0\MathCalculator.csprojAssemblyReference.cache
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\obj\Debug\netstandard2.0\MathCalculator.csproj.CoreCompileInputs.cache
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\obj\Debug\netstandard2.0\MathCalculator.AssemblyInfoInputs.cache
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\obj\Debug\netstandard2.0\MathCalculator.AssemblyInfo.cs
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\obj\Debug\netstandard2.0\MathCalculator.dll
+d:\repos\TestRepository\src\MathCalculator\MathCalculator\obj\Debug\netstandard2.0\MathCalculator.pdb
