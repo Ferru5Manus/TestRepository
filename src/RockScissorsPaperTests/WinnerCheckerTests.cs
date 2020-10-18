@@ -6,10 +6,33 @@ namespace RockScissorsPaperTests
 {
     public class WinnerCheckerTests
     {
-        [Fact]
+       [Fact]
         public void Test1()
         {
-            WinnerChecker winnerChecker = new WinnerChecker();
+            WinerChecker winerChecker = new WinerChecker();
+
+            var result  = winerChecker.Check("Rock","Scissor");
+                
+           Assert.Equal("Rock",result);
+        }
+        [Fact]
+        public void Test2()
+        {
+            WinerChecker winerChecker = new WinerChecker();
+
+            var result  = winerChecker.Check("Rock","Paper");
+                
+            Assert.Equal("Paper",result);
+        }
+
+         [Fact]
+        public void Test3()
+        {
+            WinerChecker winerChecker = new WinerChecker();
+
+            var result  = winerChecker.Check("Rockkk","Paper");
+                
+            Assert.Equal(Exception,result);
         }
     }
 }
