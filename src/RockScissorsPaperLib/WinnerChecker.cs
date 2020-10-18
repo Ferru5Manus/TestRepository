@@ -8,11 +8,11 @@ namespace RockScissorsPaperLib
         {
             if(a!="Rock" || a!="Paper" || a!="Scissors")
             {
-                return Exeption;
+                throw new Exception();
             }
             if(b!="Rock" || b!="Paper" || b!="Scissors")
             {
-                return Exeption;
+                throw new Exception();
             }
 
             if(a != b)
@@ -31,6 +31,8 @@ namespace RockScissorsPaperLib
             {
                 return "Ничья";
             }
+
+            return "";
         }
     }
 }

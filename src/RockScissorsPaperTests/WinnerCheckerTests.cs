@@ -10,7 +10,7 @@ namespace RockScissorsPaperTests
        [Fact]
         public void Test1()
         {
-            WinnerChecker winerChecker = new WinerChecker();
+            WinnerChecker winerChecker = new WinnerChecker();
 
             var result  = winerChecker.Check("Rock","Scissor");
                 
@@ -19,7 +19,7 @@ namespace RockScissorsPaperTests
         [Fact]
         public void Test2()
         {
-            WinerChecker winerChecker = new WinerChecker();
+            WinnerChecker winerChecker = new WinnerChecker();
 
             var result  = winerChecker.Check("Rock","Paper");
                 
