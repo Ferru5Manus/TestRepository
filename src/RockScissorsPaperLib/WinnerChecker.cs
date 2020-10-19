@@ -6,31 +6,48 @@ namespace RockScissorsPaperLib
     {
         public string Check(string a , string b)
         {
-            if(a!="Rock" || a!="Paper" || a!="Scissors")
+            if(a =="Rock" || a =="Paper" || a =="Scissors")
             {
-                return Exeption;
+                
             }
-            if(b!="Rock" || b!="Paper" || b!="Scissors")
+            else
             {
-                return Exeption;
+                throw new Exception();
+            }
+            if(b =="Rock" || b =="Paper" || b =="Scissors")
+            {
+                 
+            }
+            else
+            {
+                throw new Exception();
             }
 
             if(a != b)
             {
                 if((a == "Rock" && b == "Scissors")||(a == "Scissors" && b == "Rock"))
-                return "Rock";
+                {
+                    return "Rock";
 
+                }
+                
                 if((a == "Rock" && b == "Paper")||(a == "Paper" && b == "Rock"))
-                return "Paper";
+                {
+                    return "Paper";
+                }
+                
 
                 if((a == "Paper" && b == "Scissors")||(a == "Scissors" && b == "Paper"))
-                return "Scissors";
+                {
+                    return "Scissors";
+                }
                
             }
             else
             {
                 return "Ничья";
             }
+            return "";
         }
     }
 }
