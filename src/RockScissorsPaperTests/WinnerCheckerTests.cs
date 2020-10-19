@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using RockScissorsPaperLib;
+using WinnerChecker = RockScissorsPaperLib.WinnerChecker;
 
 namespace RockScissorsPaperTests
 {
@@ -24,7 +25,10 @@ namespace RockScissorsPaperTests
                 
             Assert.Equal("Paper",result);
         }
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> a8534c0a56ad121ec755547e4a565ec98fa8cde0
     }
 }

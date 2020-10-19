@@ -47,6 +47,10 @@ namespace RockScissorsPaperLib
             {
                 return "Ничья";
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a8534c0a56ad121ec755547e4a565ec98fa8cde0
             return "";
         }
     }
