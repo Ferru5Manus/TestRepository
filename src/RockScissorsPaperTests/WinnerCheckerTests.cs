@@ -25,10 +25,28 @@ namespace RockScissorsPaperTests
                 
             Assert.Equal("Paper",result);
         }
-<<<<<<< HEAD
 
-        
-=======
->>>>>>> a8534c0a56ad121ec755547e4a565ec98fa8cde0
+        public void CheckTest(string player1, string player2, string expectedResult)
+        {
+             WinnerChecker winerChecker = new WinnerChecker();
+
+            var result  = winerChecker.Check(player1,player2);
+                
+           Assert.Equal(expectedResult,result);
+        }
+
+        [Theory]
+
+        [InlineData("Rock" , "Scissors" , "Rock")]
+        [InlineData("Paper", "Rock" , "Paper")]
+        public void CheckTestTheory(string player1, string player2, string expectedResult)
+        {
+             WinnerChecker winerChecker = new WinnerChecker();
+
+            var result  = winerChecker.Check(player1,player2);
+                
+           Assert.Equal(expectedResult,result);
+        }
+
     }
 }
